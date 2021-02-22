@@ -35,7 +35,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.3.2</version>
+			<version>3.11</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
@@ -156,8 +156,7 @@
 							<outputDirectory>${project.basedir}/target</outputDirectory>
 							<mainClass>com.aidos.ari.Main</mainClass>
 							<transformers>
-								<transformer
-									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
 									<mainClass>com.aidos.ari.Main</mainClass>
 								</transformer>
 							</transformers>
