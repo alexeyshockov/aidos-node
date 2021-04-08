@@ -54,6 +54,7 @@ public class PD {
 	private static final PD instance = new PD();
 
 	private static final String PD_FILE = "peerlist.store.testnet";
+//	private static final String PD_FILE = "peerlist.store";
 
 	// Number of nodes that should be added as peers
 	private static final int PEERS_TO_FIND = 6;
