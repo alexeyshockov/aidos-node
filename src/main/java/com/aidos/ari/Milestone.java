@@ -29,7 +29,7 @@ public class Milestone {
 
 	// Address of Milestone Wallet Address
 	public static final Hash COORDINATOR = new Hash(
-			"GKDKHMIGVU9FYFYCFFWREXPQEFDFNEPRRIWDRJDDRDVTNNKBXABPFDQTEHKUXXPPQXXS9YOITKFIYYFHS");
+			"CPAKDDWWWZDNPQAKCXEVZNZLIJVRPY9QHIQHGT9ZCIOOV9LJPRP9SJICLNJ9KWRAESMTZBHLTOZPPHICG");
 
 	public static Hash latestMilestone = Hash.NULL_HASH;
 	public static Hash latestSolidSubmeshMilestone = Hash.NULL_HASH;

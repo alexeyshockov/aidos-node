@@ -18,8 +18,6 @@ public class Configuration {
 	
 	public static final int CONNECTION_TIMEOUT = 3000; // in ms
 
-	public static final int CONNECTION_TIMEOUT = 3000; // in ms
-
 	static {
 		// defaults
 		conf.put(DefaultConfSettings.API_PORT.name(), "15555");

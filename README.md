@@ -8,11 +8,11 @@ This repository is holding the Testnet branch of the main ARI repository. This b
 It's the implementation of a full Node with a JSON-REST HTTP interface (API).
 It's based upon Java 8 and therefore a requirement.
 
-## What is this repository about?
+## TESTNET What is this repository about?
 
 The Testnet is used to thoroughly review and verify new functions and also to offer an non-critical environment for testing.
 It's can also be used to get a start on implementing various integrations for Aidos Kuneen.
-The `minWeightMagnitude` is reduced from `18` to `10`, therefore the Proof of Work is completed much faster in this environment.  
+The `minWeightMagnitude` is reduced from `18` to `13`, therefore the Proof of Work is completed much faster in this environment.
 The Install/Build process is pretty much the same as for the normal ARI.  
 To be safe and don't confuse things with the Mainnet the databases for the Testnet have a different file ending (`*.store.testnet`).  
 The Testnet API runs on port `15555` by default and the ARI won't allow you to use the same default Meshport (`14265`) as in the ARI Mainnet.
