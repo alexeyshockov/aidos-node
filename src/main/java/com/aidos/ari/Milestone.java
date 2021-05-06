@@ -34,7 +34,7 @@ public class Milestone {
 	public static Hash latestMilestone = Hash.NULL_HASH;
 	public static Hash latestSolidSubmeshMilestone = Hash.NULL_HASH;
 
-	public static final int MILESTONE_START_INDEX = 0;
+	public static final int MILESTONE_START_INDEX = 729501;
 
 	public static int latestMilestoneIndex = MILESTONE_START_INDEX;
 	public static int latestSolidSubmeshMilestoneIndex = MILESTONE_START_INDEX;

@@ -30,6 +30,8 @@ public class Main {
 
 		try {
 
+		    // Just to be sure that we have addresses in the snapshot
+            log.info("Snapshot size: " + Snapshot.initialState.size());
 			Storage.instance().init();
 			// Initialize without any peers
 			Node.instance().init();
